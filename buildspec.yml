@@ -1,0 +1,12 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - echo "Starting build process..."
+
+artifacts:
+  files:
+    - '**/*'
+  base-directory: 'static_website_sample'
+  discard-paths: no
